@@ -1,5 +1,4 @@
 package br.com.upstyle.model;
-
 import br.com.upstyle.DTO.DadosAtualizacaoDTO;
 import br.com.upstyle.DTO.DadosCadastroDTO;
 import jakarta.persistence.*;
