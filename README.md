@@ -1,4 +1,4 @@
-﻿# UpStyle-Mobile-S1
+﻿# UpStyle-APIrest-S2
 
 <h1> Integrantes do grupo </h1>
 João Gabriel - Banco de dados e Java
