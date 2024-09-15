@@ -20,7 +20,7 @@ public class Cadastro {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String usuario;
-    private String senha;
+    private String password;
     private String cnpj;
     private String empresa;
     private String contato;
@@ -28,7 +28,7 @@ public class Cadastro {
 
     public Cadastro(DadosCadastroDTO dados) {
         this.usuario = dados.usuario();
-        this.senha = dados.senha();
+        this.password = dados.password();
         this.cnpj = dados.cnpj();
         this.empresa = dados.empresa();
         this.contato = dados.contato();
@@ -41,8 +41,8 @@ public class Cadastro {
         if (dados.cnpj() != null){
             this.cnpj = dados.cnpj();
         }
-        if (dados.senha() != null){
-            this.senha = dados.senha();
+        if (dados.password() != null){
+            this.password = dados.password();
         }
     }
 }

@@ -23,4 +23,7 @@ public class PerguntasController {
     public void pergunta(@RequestBody DadosPerguntasDTO dados){
         repository.save(new Perguntas(dados));
     }
+
+
+
 }

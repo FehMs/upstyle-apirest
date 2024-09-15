@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Perguntas</title>
+</head>
+<body>
+    <form>
+        <div class="mb-3">
+            <label for="produtos" class="form-label">Quais roupas sua empresa vende?</label>
+            <input type="text" class="form-control" id="produtos" name="produtos">
+        </div>
+        <div class="mb-3">
+            <label for="meta" class="form-label">Qual sua meta?</label>
+            <input type="text" class="form-control" id="meta" name="meta">
+        </div>
+        <div class="mb-3">
+            <label for="canais" class="form-label">Quais canais de marketing a empresa utiliza atualmente?</label>
+            <input type="text" class="form-control" id="canais" name="canais">
+        </div>
+        <div class="mb-3">
+            <label for="desafio" class="form-label">Quais os principais desafios da empresa ao promover seus produtos?</label>
+            <input type="text" class="form-control" id="desafio" name="desafio">
+        </div>
+        <div class="mb-3">
+            <label for="estilo" class="form-label">Qual o estilo de roupa sua marca tem como foco?</label>
+            <input type="text" class="form-control" id="estilo" name="estilo">
+        </div>
+        <div class="mb-3">
+            <label for="meses" class="form-label">Quais meses sua empresa tem mais lucro?</label>
+            <input type="text" class="form-control" id="meses" name="meses">
+        </div>
+        <div class="mb-3">
+            <label for="estrategias" class="form-label">Sua empresa já utiliza estratégias de marketing? Se sim, quais?</label>
+            <input type="text" class="form-control" name="estrategias" id="estrategias">
+        </div>
+        <button type="submit" class="btn btn-primary">Cadastrar Respostas</button>
+    </form>
+
+    <script th:inline="javascript">
+        alert("Respostas Cadastradas com sucesso!");
+    </script>
+
+</body>
+</html>

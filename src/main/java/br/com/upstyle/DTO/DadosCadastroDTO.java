@@ -7,7 +7,7 @@ public record DadosCadastroDTO(
         @NotBlank
         String usuario,
         @NotBlank
-        String senha,
+        String password,
         @NotBlank
         @Pattern(regexp = "\\d{14}")
         String cnpj,
