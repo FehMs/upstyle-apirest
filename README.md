@@ -1,11 +1,10 @@
 ﻿# UpStyle-APIrest-S2
 
 <h1> Integrantes do grupo </h1>
-João Gabriel - Banco de dados e Java
-Felipe Morais - Java e Mobile 
-Miguel Santos - IA e Devops 
-Ian Navas - Devops e IA
-Renan Vieira - QA e .Net
+João Gabriel - RM 552078
+Felipe Morais - RM 551463 
+Miguel Santos - RM 551640
+Ian Navas - RM 550133 
 <h1>Intruções de como rodar o projeto </h1>
 Abra o projeto com IDLE Run UpStyleApplication
 <h1>Diagrama</h1>
